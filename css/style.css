@@ -1,0 +1,237 @@
+ /* * { 
+    overflow-x: hidden;
+} */
+
+@font-face {
+    font-family: "Makoto Glitch";
+    src: url(/fonts/Mokoto\ Glitch\ Mark.ttf);
+}
+
+@font-face {
+    font-family: "Caviar";
+    src: url(/fonts/CaviarDreams_Bold.ttf);
+}
+
+h4 {
+    font-family: "Caviar";
+    text-shadow: 
+    0 0 42px white;
+}
+
+body {
+    font-family: "Caviar";
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+} 
+
+
+
+.section-1 {
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.section-2 {
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.title-impact-dao {
+    color: #B026FF;
+    font-family: "Makoto Glitch";
+    text-align: center;
+    padding-top: 35%;
+    padding-left: 4%;
+    letter-spacing: 15px;
+    color: #B026FF;    
+    text-shadow:
+    0 0 42px #B026FF;
+    
+
+}
+
+.title-desc {
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.whitepaper {
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 4%;
+    text-shadow: 
+    0 0 42px white;
+}
+
+.registration {
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 4%;
+    text-shadow: 
+    0 0 42px white;
+}
+
+
+.glitch {
+    position: relative;
+    margin: 0 auto;
+    color: #B026FF;
+    text-align: center;
+    
+}
+
+.glitch:before, .glitch:after{
+    content: "IMPACT DAO";
+    position: absolute;
+    padding-top: 35%;
+    padding-left: 20%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #000;
+    color: #B026FF;
+}
+
+.glitch:before {
+    left: 10px;
+    text-shadow: 5px 0 #3cd1e9;
+    animation: effect 3s infinite linear;
+}
+
+.glitch:after {
+    left: 4px;
+    text-shadow: -5px 0 #ff1d6f;
+    animation: effect 2s infinite linear;
+}
+
+@-webkit-keyframes effect {
+    0%{
+        clip:rect(55px, 9999px, 56px, 0);
+        
+    }
+    5%{
+        clip:rect(47px, 9999px, 30px, 0);
+    }
+    10%{
+        clip:rect(33px, 9999px, 36px, 0);
+    }
+    15%{
+        clip:rect(35px, 9999px, 9px, 0);
+    }
+    20%{
+        clip:rect(63px, 9999px, 59px, 0);
+    }
+    25%{
+        clip:rect(96px, 9999px, 98px, 0);
+    }
+    30%{
+        clip:rect(48px, 9999px, 77px, 0);
+    }
+    35%{
+        clip:rect(50px, 9999px, 34px, 0);
+    }
+    40%{
+        clip:rect(60px, 9999px, 72px, 0);
+    }
+    45%{
+        clip:rect(10px, 9999px, 81px, 0);
+    }
+    50%{
+        clip:rect(2px, 9999px, 60px, 0);
+    }
+    55%{
+        clip:rect(55px, 9999px, 30px, 0);
+    }
+    60%{
+        clip:rect(55px, 9999px, 30px, 0);
+    }
+    65%{
+        clip:rect(55px, 9999px, 30px, 0);
+    }
+    70%{
+        clip:rect(55px, 9999px, 30px, 0);
+    }
+    75%{
+        clip:rect(55px, 9999px, 30px, 0);
+    }
+    80%{
+        clip:rect(55px, 9999px, 30px, 0);
+    }
+    85%{
+        clip:rect(55px, 9999px, 30px, 0);
+    }
+    90%{
+        clip:rect(55px, 9999px, 30px, 0);
+    }
+    95%{
+        clip:rect(55px, 9999px, 30px, 0);
+    }
+}
+
+/* Main */
+
+/* .title-impact-dao {
+    text-align: center;
+    position: relative;
+    top: 35%;
+    left: 16%;
+}
+
+.title-desc {
+    position: relative;
+    text-align: center;
+    width: 65%;
+    top: 40%;
+    left: 35%;
+}
+
+.whitepaper {
+    position: relative;
+    text-align: center;
+    top: 43%;
+    left: 59.5%;
+} */
+
+.banner-image {
+    padding-right: 3%;
+    padding-top: 5%;
+    width: 100%;
+}
+
+.capital {
+    margin-top: 20%;
+    z-index: 2;
+}
+
+.carousel-capital {
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #000;
+}
+
+.carousel-in {
+    position: absolute;
+    z-index: 3; 
+    height: 60px;  
+    width: 40%;
+    left: 13%;
+    top: 120%;
+}
+
+.background-section-2 {
+    position: relative;
+    padding-right: 3%;
+    padding-top: 5%;
+    width: 110%; 
+    z-index: 1;
+}
+
+.container-fluid {
+    background-color: #000;
+    height: 100vh;
+}
+
