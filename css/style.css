@@ -98,6 +98,8 @@ body {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 40%;
+    font-size: large;
+    font-weight: bolder;
 }
 
 .title-impact-dao {
@@ -152,6 +154,15 @@ body {
     text-align: center;
 }
 
+.glitch4 {
+    position: relative;
+    margin: 0 auto;
+    color: #B026FF;
+    text-align: center;
+}
+
+
+
 
 
 .glitch:before, .glitch:after{
@@ -193,6 +204,19 @@ body {
     color: #B026FF;
 }
 
+.glitch4:before, .glitch4:after {
+    content: "500+";
+    position: absolute;
+    padding-top: 10%;
+    /* padding-left: %; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    /* background-color: ; */
+    color: #B026FF;
+}
+
 .glitch:before {
     left: 10px;
     text-shadow: 5px 0 #3cd1e9;
@@ -211,6 +235,12 @@ body {
     animation: effect 3s infinite linear;
 }
 
+.glitch4:before {
+    left: 10px;
+    text-shadow: 5px 0 #3cd1e9;
+    animation: effect 3s infinite linear;
+}
+
 .glitch:after {
     left: 4px;
     text-shadow: -5px 0 #ff1d6f;
@@ -224,6 +254,12 @@ body {
 }
 
 .glitch3:after {
+    left: 4px;
+    text-shadow: -5px 0 #ff1d6f;
+    animation: effect 2s infinite linear;
+}
+
+.glitch4:after {
     left: 4px;
     text-shadow: -5px 0 #ff1d6f;
     animation: effect 2s infinite linear;
